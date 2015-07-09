@@ -1,0 +1,23 @@
+{
+  "name": "promise-tracer",
+  "version": "0.0.1",
+  "description": "Simple library to instrument and measure time spent in nested promise execution trees",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DispatcherInc/promise-tracer.git"
+  },
+  "author": "Kevin Stumpf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DispatcherInc/promise-tracer/issues"
+  },
+  "homepage": "https://github.com/DispatcherInc/promise-tracer#readme",
+  "dependencies": {
+    "bluebird-q": "^1.0.3",
+    "lodash": "^3.10.0"
+  }
+}
